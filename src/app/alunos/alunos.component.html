@@ -1,0 +1,18 @@
+<h2>Alunos Cadastrados</h2>
+
+<table>
+    <thead>
+<tr>
+    <th>#ID</th>
+    <th>Nome</th>
+    <th>Idade</th>
+</tr>
+    </thead>
+    <tbody>
+<tr *ngFor="let aluno of alunos">
+<td>{{aluno.id}}</td>
+<td>{{aluno.nome}}</td>
+<td>{{aluno.idade}}</td>
+</tr>
+    </tbody>
+</table>
